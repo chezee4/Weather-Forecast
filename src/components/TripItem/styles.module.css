@@ -1,0 +1,33 @@
+.cityItem {
+  min-width: 200px;
+  border: 1px solid #eaeaea;
+  cursor: pointer;
+  transition: all 0.25s linear;
+  &:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    transform:translateY(-2px);
+  }
+}
+
+.cityImageContainer {
+  max-width: 200px;
+  width: 100%;
+  height: 150px;
+}
+
+.cityImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cityData{
+  font-size: 10px;
+}
+
+.cityContainerText {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}

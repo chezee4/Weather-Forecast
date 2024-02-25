@@ -1,0 +1,66 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 10px;
+  z-index: 1000;
+}
+.outside {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 90;
+  cursor: pointer;
+}
+.bodyModal {
+  padding: 20px;
+  padding-block: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.titleModal {
+  font-size: 20px;
+  font-weight: 600;
+}
+.buttonClose {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  transition: 0.3s ease;
+}
+
+.headerModal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.containerInputs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttonAdd {
+  cursor: pointer;
+  transition: all 0.3s linear;
+  padding-block: 10px;
+}

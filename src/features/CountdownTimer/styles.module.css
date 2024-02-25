@@ -1,0 +1,15 @@
+.containerTimer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.timerElement{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+    font-weight: 500;
+    align-items: center;
+}

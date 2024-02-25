@@ -1,0 +1,44 @@
+.card {
+  background-image: url('src/assets/bg.jpg');
+  background-size: cover;
+  width: 100%;
+  display: inline-flex;
+  max-height: 75dvh;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.containerTemp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-block: 20px 0px;
+}
+
+.details {
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+}
+
+.city {
+  font-size: 2rem;
+}
+.day {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.textTemp {
+  position: relative;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.textTemp::after {
+  content: '°C';
+  position: absolute;
+  font-size: 1.6rem;
+  top: 0;
+}
