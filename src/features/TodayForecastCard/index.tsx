@@ -1,4 +1,4 @@
-import ForecastIcon from '../../components/ForecastIcon'
+import ForecastIcon from 'src/components/ForecastIcon'
 import CountdownTimer from 'src/features/CountdownTimer'
 
 import { useTodayForecastStore } from 'src/context'

@@ -1,6 +1,6 @@
 import CityItem from 'src/components/TripItem'
 import { useTripList } from 'src/features/TripList/useTripList'
-import TripItemAdd from '../../components/TripItemAdd'
+import TripItemAdd from 'src/components/TripItemAdd'
 import styles from 'src/features/TripList/styles.module.css'
 
 export default function TripList() {
