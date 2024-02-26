@@ -13,19 +13,19 @@ export const cities = [
   {
     name: 'Berlin',
     image: CityImage.Berlin,
-    dataStart: '2024-02-29',
-    dataFinish: '2024-03-01',
+    dataStart: '2024-03-18',
+    dataFinish: '2024-03-22',
   },
   {
     name: 'Barcelona',
     image: CityImage.Barcelona,
-    dataStart: '2024-03-01',
-    dataFinish: '2024-03-04',
+    dataStart: '2024-03-12',
+    dataFinish: '2024-03-15',
   },
   {
     name: 'Tokio',
     image: CityImage.Tokyo,
-    dataStart: '2024-03-01',
-    dataFinish: '2024-03-03',
+    dataStart: '2024-03-28',
+    dataFinish: '2024-04-02',
   },
 ]
