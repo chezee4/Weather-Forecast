@@ -13,14 +13,14 @@ export const cities = [
   {
     name: 'Berlin',
     image: CityImage.Berlin,
-    dataStart: '2024-03-18',
-    dataFinish: '2024-03-22',
+    dataStart: '2024-03-25',
+    dataFinish: '2024-04-01',
   },
   {
     name: 'Barcelona',
     image: CityImage.Barcelona,
-    dataStart: '2024-03-12',
-    dataFinish: '2024-03-15',
+    dataStart: '2024-03-21',
+    dataFinish: '2024-03-28',
   },
   {
     name: 'Tokio',
